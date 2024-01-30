@@ -8,7 +8,7 @@ mng = og.tcp.OptimizerTcpManager("python_build/xuhao_drones")
 mng.start()
 
 x_state_0 = [1,0,50,0,0,0,0,0,12,0,0,7,0,0]
-simulation_steps = 2000
+simulation_steps = 500
 
 state_sequence = x_state_0
 input_sequence = []
