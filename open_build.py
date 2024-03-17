@@ -84,9 +84,6 @@ for t in range(0, T):
     total_cost+=stage_cost(x_t, u_k[t])
     x_t = dynamic_dt(x_t, u_k[t])
 
-print(np.size(total_cost))
-exit()
-
 # Constraints
 bounds = og.constraints.Rectangle(a_min*T, a_max*T)
 
